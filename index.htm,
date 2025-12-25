@@ -1,0 +1,2685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Christmas, Adebiyi Oluwajuwuralo Rhoda Aduragbemi!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --pure-white: #FFFFFF;
+            --snow-white: #F8FAFC;
+            --ice-blue: #E3F2FD;
+            --crystal-blue: #B3E0FF;
+            --serene-blue: #66B2FF;
+            --deep-blue: #0077CC;
+            --navy-blue: #00509E;
+            --silver-gray: #E8EAF6;
+            --platinum: #CFD8DC;
+            --gold: #FFD700;
+            --sapphire: #0F52BA;
+            --ruby: #E63946;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, var(--pure-white) 0%, var(--ice-blue) 100%);
+            color: var(--navy-blue);
+            min-height: 100vh;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        .elegant-font {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Click to Start Overlay */
+        .click-to-start-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, var(--snow-white), var(--ice-blue));
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .click-to-start-content {
+            text-align: center;
+            padding: 3rem;
+            background: var(--pure-white);
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 87, 204, 0.2);
+            max-width: 500px;
+            border: 2px solid var(--serene-blue);
+        }
+
+        .click-to-start-content i {
+            font-size: 4rem;
+            color: var(--deep-blue);
+            margin-bottom: 1.5rem;
+            animation: pulse 2s infinite;
+        }
+
+        .click-to-start-content h2 {
+            color: var(--sapphire);
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+
+        .click-to-start-content p {
+            color: var(--navy-blue);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Snowflakes Animation */
+        .snowflakes {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .snowflake {
+            position: absolute;
+            background-color: var(--pure-white);
+            border-radius: 50%;
+            opacity: 0.7;
+            box-shadow: 0 0 10px var(--crystal-blue);
+            animation: fall linear infinite;
+        }
+
+        /* Header & Navigation */
+        header {
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 30px rgba(0, 87, 204, 0.1);
+            border-bottom: 1px solid var(--ice-blue);
+        }
+
+        .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.2rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            cursor: pointer;
+        }
+
+        .logo-icon {
+            font-size: 2rem;
+            color: var(--sapphire);
+            transition: transform 0.5s ease;
+        }
+
+        .logo:hover .logo-icon {
+            transform: rotate(360deg);
+        }
+
+        .logo-text h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: var(--sapphire);
+            margin: 0;
+            line-height: 1.2;
+            font-weight: 600;
+        }
+
+        .logo-text .subtitle {
+            font-size: 0.85rem;
+            color: var(--deep-blue);
+            margin: 0;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        /* Desktop Navigation */
+        .desktop-nav {
+            display: flex;
+            gap: 0.8rem;
+            align-items: center;
+        }
+
+        .nav-btn {
+            background: var(--pure-white);
+            color: var(--sapphire);
+            border: 2px solid var(--serene-blue);
+            padding: 0.8rem 1.8rem;
+            border-radius: 30px;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-btn:hover {
+            background: var(--serene-blue);
+            color: var(--pure-white);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 178, 255, 0.3);
+            border-color: var(--serene-blue);
+        }
+
+        .nav-btn.active {
+            background: var(--deep-blue);
+            color: var(--pure-white);
+            border-color: var(--deep-blue);
+            box-shadow: 0 0 20px rgba(0, 119, 204, 0.2);
+        }
+
+        /* Hamburger Menu for Mobile */
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.8rem;
+            color: var(--sapphire);
+            cursor: pointer;
+            padding: 0.5rem;
+            z-index: 1002;
+        }
+
+        /* Mobile Navigation Overlay */
+        .mobile-nav-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1001;
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .mobile-nav-overlay.active {
+            display: block;
+        }
+
+        .mobile-nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 300px;
+            height: 100%;
+            background: var(--pure-white);
+            z-index: 1002;
+            padding: 3rem 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            box-shadow: -5px 0 30px rgba(0, 0, 0, 0.1);
+            transform: translateX(100%);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .mobile-nav.active {
+            transform: translateX(0);
+        }
+
+        .mobile-nav-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid var(--ice-blue);
+        }
+
+        .mobile-nav-header h3 {
+            color: var(--sapphire);
+            font-size: 1.6rem;
+            font-weight: 600;
+        }
+
+        .close-menu {
+            background: none;
+            border: none;
+            font-size: 1.8rem;
+            color: var(--sapphire);
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .mobile-nav .nav-btn {
+            width: 100%;
+            justify-content: flex-start;
+            padding: 1.2rem 1.8rem;
+            border-radius: 12px;
+            margin-bottom: 0.5rem;
+            border: 2px solid var(--ice-blue);
+            background: var(--snow-white);
+        }
+
+        .mobile-nav .nav-btn.active {
+            background: var(--deep-blue);
+            color: var(--pure-white);
+            border-color: var(--deep-blue);
+        }
+
+        /* Music Controls */
+        .music-player {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--pure-white);
+            border-radius: 25px;
+            padding: 1rem;
+            z-index: 999;
+            box-shadow: 0 8px 25px rgba(0, 119, 204, 0.2);
+            border: 2px solid var(--serene-blue);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            transition: transform 0.3s ease;
+        }
+
+        .music-player:hover {
+            transform: translateY(-5px);
+        }
+
+        .music-player.minimized {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .music-player.minimized .music-info,
+        .music-player.minimized .music-controls,
+        .music-player.minimized .volume-control {
+            display: none;
+        }
+
+        .music-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            min-width: 200px;
+        }
+
+        .music-icon {
+            font-size: 1.5rem;
+            color: var(--deep-blue);
+            animation: music-note 2s infinite;
+        }
+
+        .music-title {
+            font-weight: 500;
+            color: var(--sapphire);
+            font-size: 0.9rem;
+        }
+
+        .music-controls {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .music-btn {
+            background: none;
+            border: none;
+            font-size: 1.2rem;
+            color: var(--deep-blue);
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+        }
+
+        .music-btn:hover {
+            background: var(--ice-blue);
+            color: var(--sapphire);
+            transform: scale(1.1);
+        }
+
+        .volume-control {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            min-width: 120px;
+        }
+
+        .volume-slider {
+            width: 100%;
+            height: 4px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: var(--ice-blue);
+            border-radius: 2px;
+            outline: none;
+        }
+
+        .volume-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 16px;
+            height: 16px;
+            background: var(--deep-blue);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .minimize-btn {
+            background: none;
+            border: none;
+            font-size: 0.9rem;
+            color: var(--deep-blue);
+            cursor: pointer;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .minimize-btn:hover {
+            background: var(--ice-blue);
+        }
+
+        /* Main Content */
+        .main-container {
+            max-width: 1400px;
+            margin: 100px auto 2rem;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 10;
+        }
+
+        .section {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        /* Content Boxes */
+        .content-box {
+            background: var(--pure-white);
+            border-radius: 20px;
+            padding: 3rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 87, 204, 0.08);
+            border: 1px solid var(--ice-blue);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .content-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--serene-blue), var(--deep-blue));
+        }
+
+        .content-box h2 {
+            color: var(--sapphire);
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 2.2rem;
+            font-weight: 600;
+        }
+
+        .content-box h2 i {
+            color: var(--serene-blue);
+        }
+
+        /* Welcome Section */
+        .welcome-box {
+            text-align: center;
+            padding: 4rem !important;
+            background: linear-gradient(135deg, var(--pure-white) 0%, var(--snow-white) 100%);
+        }
+
+        .welcome-icon {
+            font-size: 4rem;
+            color: var(--deep-blue);
+            margin-bottom: 2rem;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .welcome-text h2 {
+            font-size: 2.8rem !important;
+            margin-bottom: 1.5rem !important;
+        }
+
+        .greetings-container {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .greeting-btn {
+            background: var(--pure-white);
+            color: var(--deep-blue);
+            border: 2px solid var(--serene-blue);
+            padding: 1rem 2rem;
+            border-radius: 30px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .greeting-btn:hover {
+            background: var(--serene-blue);
+            color: var(--pure-white);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(102, 178, 255, 0.3);
+        }
+
+        /* AI Voice Indicator */
+        .ai-speaking {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--deep-blue);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 25px;
+            display: none;
+            align-items: center;
+            gap: 1rem;
+            z-index: 1000;
+            box-shadow: 0 8px 25px rgba(0, 119, 204, 0.3);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--serene-blue);
+        }
+
+        .ai-speaking.show {
+            display: flex;
+            animation: pulse 2s infinite;
+        }
+
+        /* Buttons */
+        .btn {
+            background: var(--deep-blue);
+            color: white;
+            border: none;
+            padding: 1rem 2.5rem;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.8rem;
+            transition: all 0.3s ease;
+            margin: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn:hover {
+            background: var(--sapphire);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 80, 158, 0.3);
+        }
+
+        .btn-light {
+            background: var(--pure-white);
+            color: var(--deep-blue);
+            border: 2px solid var(--serene-blue);
+        }
+
+        .btn-light:hover {
+            background: var(--serene-blue);
+            color: var(--pure-white);
+        }
+
+        .btn-gold {
+            background: var(--gold);
+            color: var(--sapphire);
+        }
+
+        .btn-gold:hover {
+            background: #FFED4E;
+            box-shadow: 0 10px 25px rgba(255, 215, 0, 0.3);
+        }
+
+        /* Grid Layouts */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background: var(--snow-white);
+            border: 1px solid var(--ice-blue);
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--serene-blue);
+            box-shadow: 0 15px 35px rgba(102, 178, 255, 0.1);
+        }
+
+        .card-icon {
+            font-size: 2.5rem;
+            color: var(--deep-blue);
+            margin-bottom: 1.5rem;
+        }
+
+        /* Music Section Styles */
+        .music-player-section {
+            background: var(--snow-white);
+            border-radius: 15px;
+            padding: 2rem;
+            margin-top: 2rem;
+            border: 1px solid var(--ice-blue);
+        }
+
+        .song-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .song-item {
+            background: var(--pure-white);
+            border: 1px solid var(--ice-blue);
+            border-radius: 10px;
+            padding: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .song-item:hover {
+            background: var(--ice-blue);
+            transform: translateX(5px);
+        }
+
+        .song-item.active {
+            background: var(--serene-blue);
+            color: white;
+            border-color: var(--deep-blue);
+        }
+
+        .song-number {
+            font-weight: 600;
+            color: var(--deep-blue);
+            min-width: 25px;
+        }
+
+        .song-item.active .song-number {
+            color: white;
+        }
+
+        .song-title {
+            flex: 1;
+            font-weight: 500;
+        }
+
+        .song-duration {
+            color: var(--navy-blue);
+            font-size: 0.9rem;
+        }
+
+        .song-item.active .song-duration {
+            color: white;
+        }
+
+        .lyrics-container {
+            background: var(--pure-white);
+            border-radius: 10px;
+            padding: 2rem;
+            margin-top: 2rem;
+            border: 1px solid var(--ice-blue);
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .lyrics-line {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+            color: var(--navy-blue);
+        }
+
+        .lyrics-line.highlight {
+            color: var(--sapphire);
+            font-weight: 600;
+            background: var(--ice-blue);
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            animation: highlight 1s ease;
+        }
+
+        /* AI Singing Styles */
+        .ai-singing-container {
+            background: linear-gradient(135deg, var(--snow-white), var(--ice-blue));
+            border-radius: 15px;
+            padding: 2rem;
+            margin-top: 2rem;
+            border: 2px solid var(--gold);
+            text-align: center;
+        }
+
+        .sing-btn {
+            background: var(--gold);
+            color: var(--sapphire);
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.8rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin: 0.5rem;
+        }
+
+        .sing-btn:hover {
+            background: #FFED4E;
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.4);
+        }
+
+        /* Quiz Game Styles */
+        .quiz-option {
+            background: var(--pure-white);
+            border: 2px solid var(--ice-blue);
+            border-radius: 10px;
+            padding: 1.2rem 1.5rem;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .quiz-option:hover {
+            background: var(--ice-blue);
+            transform: translateX(5px);
+        }
+
+        .quiz-option.selected {
+            background: var(--serene-blue);
+            color: white;
+            border-color: var(--deep-blue);
+        }
+
+        .quiz-option.correct {
+            background: #4CAF50;
+            color: white;
+            border-color: #2E7D32;
+        }
+
+        .quiz-option.incorrect {
+            background: #F44336;
+            color: white;
+            border-color: #C62828;
+        }
+
+        .quiz-option.disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        .option-letter {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--deep-blue);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+
+        .quiz-option.selected .option-letter {
+            background: white;
+            color: var(--deep-blue);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fall {
+            to { transform: translateY(100vh); }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(0, 119, 204, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(0, 119, 204, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(0, 119, 204, 0); }
+        }
+
+        @keyframes music-note {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @keyframes highlight {
+            0% { background: transparent; }
+            50% { background: var(--ice-blue); }
+            100% { background: var(--ice-blue); }
+        }
+
+        /* Footer */
+        footer {
+            background: var(--pure-white);
+            border-top: 1px solid var(--ice-blue);
+            padding: 3rem 2rem;
+            margin-top: 4rem;
+            text-align: center;
+            color: var(--deep-blue);
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .header-container {
+                padding: 1rem;
+            }
+            
+            .main-container {
+                margin-top: 90px;
+                padding: 0 1rem;
+            }
+
+            .music-player {
+                left: 20px;
+                right: auto;
+                max-width: calc(100% - 40px);
+            }
+
+            .click-to-start-content {
+                max-width: 400px;
+                padding: 2rem;
+                margin: 1rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+            }
+
+            .desktop-nav {
+                display: none;
+            }
+
+            .logo-text h1 {
+                font-size: 1.5rem;
+            }
+
+            .content-box {
+                padding: 2rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .content-box h2 {
+                font-size: 1.8rem;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+
+            .welcome-box {
+                padding: 2.5rem !important;
+            }
+
+            .welcome-text h2 {
+                font-size: 2rem !important;
+            }
+
+            .welcome-icon {
+                font-size: 3rem;
+            }
+
+            .ai-speaking {
+                top: 80px;
+                right: 10px;
+                padding: 0.8rem 1.2rem;
+                font-size: 0.9rem;
+            }
+
+            .mobile-nav {
+                width: 100%;
+                max-width: 320px;
+            }
+
+            .music-player {
+                flex-direction: column;
+                align-items: stretch;
+                padding: 1rem;
+            }
+
+            .music-info {
+                min-width: auto;
+            }
+
+            .volume-control {
+                min-width: auto;
+            }
+
+            .music-player.minimized {
+                width: 50px;
+                height: 50px;
+            }
+
+            .click-to-start-content h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .main-container {
+                margin-top: 80px;
+            }
+
+            .content-box {
+                padding: 1.5rem;
+                border-radius: 15px;
+            }
+
+            .content-box h2 {
+                font-size: 1.5rem;
+            }
+
+            .btn {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
+            }
+
+            .greeting-btn {
+                padding: 0.8rem 1.2rem;
+                font-size: 0.9rem;
+            }
+
+            .grid-3 {
+                grid-template-columns: 1fr;
+            }
+
+            .song-list {
+                grid-template-columns: 1fr;
+            }
+
+            .click-to-start-content {
+                padding: 1.5rem;
+            }
+
+            .click-to-start-content i {
+                font-size: 3rem;
+            }
+        }
+
+        /* Loading Animation */
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            z-index: 10000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid var(--ice-blue);
+            border-top: 4px solid var(--deep-blue);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Click to Start Overlay -->
+    <div class="click-to-start-overlay" id="clickToStart">
+        <div class="click-to-start-content">
+            <i class="fas fa-play-circle"></i>
+            <h2>Click to Start Christmas Experience</h2>
+            <p>Welcome, Adebiyi Oluwajuwuralo Rhoda Aduragbemi</p>
+            <p>Click anywhere to begin the music and experience</p>
+            <button class="btn btn-gold" id="clickStartBtn">
+                <i class="fas fa-play"></i> Start Christmas Celebration
+            </button>
+        </div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+        <h2 style="color: var(--sapphire);">Preparing your Christmas experience...</h2>
+    </div>
+
+    <!-- Snowflakes -->
+    <div class="snowflakes" id="snowflakes"></div>
+
+    <!-- AI Voice Indicator -->
+    <div class="ai-speaking" id="aiIndicator">
+        <i class="fas fa-microphone-alt"></i>
+        <span>AI Assistant Speaking</span>
+    </div>
+
+    <!-- Music Player -->
+    <div class="music-player" id="musicPlayer">
+        <div class="music-info">
+            <i class="fas fa-music music-icon"></i>
+            <div>
+                <div class="music-title" id="currentSongTitle">We Wish You a Merry Christmas</div>
+                <div style="font-size: 0.8rem; color: var(--navy-blue);" id="currentSongStatus">Ready to Play</div>
+            </div>
+        </div>
+        <div class="music-controls">
+            <button class="music-btn" id="prevBtn">
+                <i class="fas fa-step-backward"></i>
+            </button>
+            <button class="music-btn" id="playBtn">
+                <i class="fas fa-play"></i>
+            </button>
+            <button class="music-btn" id="nextBtn">
+                <i class="fas fa-step-forward"></i>
+            </button>
+        </div>
+        <div class="volume-control">
+            <i class="fas fa-volume-up" style="color: var(--deep-blue);"></i>
+            <input type="range" class="volume-slider" id="volumeSlider" min="0" max="100" value="50">
+        </div>
+        <button class="minimize-btn" id="minimizeBtn">
+            <i class="fas fa-minus"></i>
+        </button>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo" id="logoClick">
+                <i class="fas fa-snowflake logo-icon"></i>
+                <div class="logo-text">
+                    <h1 class="elegant-font">Merry Christmas</h1>
+                    <p class="subtitle">Adebiyi Oluwajuwuralo Rhoda Aduragbemi</p>
+                </div>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+                <button class="nav-btn active" data-section="home">
+                    <i class="fas fa-home"></i> Home
+                </button>
+                <button class="nav-btn" data-section="music">
+                    <i class="fas fa-music"></i> Music
+                </button>
+                <button class="nav-btn" data-section="gifts">
+                    <i class="fas fa-gift"></i> Gifts
+                </button>
+                <button class="nav-btn" data-section="games">
+                    <i class="fas fa-gamepad"></i> Games
+                </button>
+                <button class="nav-btn" data-section="stories">
+                    <i class="fas fa-book-open"></i> Stories
+                </button>
+            </nav>
+
+            <!-- Hamburger Menu -->
+            <button class="hamburger" id="hamburgerBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-header">
+            <h3 class="elegant-font">Menu</h3>
+            <button class="close-menu" id="closeMenuBtn">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <button class="nav-btn active" data-section="home">
+            <i class="fas fa-home"></i> Home
+        </button>
+        <button class="nav-btn" data-section="music">
+            <i class="fas fa-music"></i> Music
+        </button>
+        <button class="nav-btn" data-section="gifts">
+            <i class="fas fa-gift"></i> Gifts
+        </button>
+        <button class="nav-btn" data-section="games">
+            <i class="fas fa-gamepad"></i> Games
+        </button>
+        <button class="nav-btn" data-section="stories">
+            <i class="fas fa-book-open"></i> Stories
+        </button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="content-box welcome-box">
+                <i class="fas fa-star welcome-icon"></i>
+                <div class="welcome-text">
+                    <h2 class="elegant-font">Welcome, Adebiyi Oluwajuwuralo Rhoda Aduragbemi</h2>
+                    <p style="font-size: 1.2rem; margin: 1.5rem 0; color: var(--deep-blue);">
+                        <i class="fas fa-heart" style="color: var(--serene-blue); margin: 0 0.5rem;"></i>
+                        May your Christmas be filled with peace, joy, and beautiful blessings
+                        <i class="fas fa-heart" style="color: var(--serene-blue); margin: 0 0.5rem;"></i>
+                    </p>
+                    <p style="margin: 2rem 0; color: var(--navy-blue); font-size: 1.1rem; line-height: 1.8;">
+                        This elegant white and blue Christmas experience was created especially for you. 
+                        Enjoy the Christmas music, explore gifts, play games, and discover wonderful Christmas stories.
+                    </p>
+                </div>
+                <div style="margin-top: 3rem;">
+                    <button class="btn" id="startBtn">
+                        <i class="fas fa-play-circle"></i> Begin Experience
+                    </button>
+                    <button class="btn btn-light" id="surpriseBtn">
+                        <i class="fas fa-magic"></i> Quick Surprise
+                    </button>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <h2><i class="fas fa-language"></i> Christmas Greetings</h2>
+                <div class="greetings-container">
+                    <button class="greeting-btn" data-lang="en">
+                        <i class="fas fa-globe-americas"></i> English: Merry Christmas!
+                    </button>
+                    <button class="greeting-btn" data-lang="yo">
+                        <i class="fas fa-globe-africa"></i> Yoruba: E ku odun keresimesi!
+                    </button>
+                    <button class="greeting-btn" data-lang="ig">
+                        <i class="fas fa-globe-africa"></i> Igbo: Ekeresimesi ọma!
+                    </button>
+                    <button class="btn btn-light" id="aiSingBtn">
+                        <i class="fas fa-microphone-alt"></i> AI Sing Christmas Song
+                    </button>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <h2><i class="fas fa-compass"></i> Quick Navigation</h2>
+                <div class="grid-3">
+                    <div class="card" data-section="music">
+                        <i class="fas fa-music card-icon"></i>
+                        <h3 style="color: var(--sapphire); margin-bottom: 1rem;">Christmas Music</h3>
+                        <p style="color: var(--navy-blue);">Listen to festive Christmas songs</p>
+                    </div>
+                    <div class="card" data-section="gifts">
+                        <i class="fas fa-gifts card-icon"></i>
+                        <h3 style="color: var(--sapphire); margin-bottom: 1rem;">Christmas Gifts</h3>
+                        <p style="color: var(--navy-blue);">Discover personalized blessings</p>
+                    </div>
+                    <div class="card" data-section="games">
+                        <i class="fas fa-gamepad card-icon"></i>
+                        <h3 style="color: var(--sapphire); margin-bottom: 1rem;">Festive Games</h3>
+                        <p style="color: var(--navy-blue);">Interactive Christmas activities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Music Section -->
+        <section id="music" class="section">
+            <div class="content-box">
+                <h2><i class="fas fa-music"></i> Christmas Music</h2>
+                <p style="color: var(--deep-blue); margin-bottom: 2rem;">
+                    <i class="fas fa-headphones"></i> Enjoy beautiful Christmas music. Songs automatically play when you enter!
+                </p>
+                
+                <!-- AI Singing Section -->
+                <div class="ai-singing-container">
+                    <h3 style="color: var(--sapphire); margin-bottom: 1rem;">
+                        <i class="fas fa-robot"></i> AI Christmas Singer
+                    </h3>
+                    <p style="color: var(--navy-blue); margin-bottom: 1.5rem;">
+                        Let the AI sing Christmas songs for you with personalized touches!
+                    </p>
+                    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                        <button class="sing-btn" id="aiSingMerryChristmas">
+                            <i class="fas fa-play-circle"></i> We Wish You Merry Christmas
+                        </button>
+                        <button class="sing-btn" id="aiSingSilentNight">
+                            <i class="fas fa-moon"></i> Silent Night
+                        </button>
+                        <button class="sing-btn" id="aiSingJoyToWorld">
+                            <i class="fas fa-globe"></i> Joy to the World
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Song List -->
+                <div class="music-player-section">
+                    <h3 style="color: var(--sapphire); margin-bottom: 1.5rem;">
+                        <i class="fas fa-list-music"></i> Christmas Playlist
+                    </h3>
+                    <div class="song-list" id="songList">
+                        <!-- Songs will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Lyrics Display -->
+                <div class="lyrics-container" id="lyricsContainer">
+                    <h4 style="color: var(--sapphire); margin-bottom: 1.5rem;">Lyrics</h4>
+                    <div id="lyricsContent">
+                        <p class="lyrics-line">Select a song to view lyrics...</p>
+                    </div>
+                </div>
+
+                <!-- Music Controls Info -->
+                <div style="background: var(--ice-blue); border-radius: 10px; padding: 1.5rem; margin-top: 2rem; text-align: center;">
+                    <p style="color: var(--sapphire); margin-bottom: 0.5rem;">
+                        <i class="fas fa-info-circle"></i> Music Player Controls
+                    </p>
+                    <p style="color: var(--navy-blue); font-size: 0.9rem;">
+                        Use the floating music player at the bottom right to control playback, volume, and minimize.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gifts Section -->
+        <section id="gifts" class="section">
+            <div class="content-box">
+                <h2><i class="fas fa-gifts"></i> Christmas Gifts</h2>
+                <p style="color: var(--deep-blue); margin-bottom: 2rem;">
+                    <i class="fas fa-info-circle"></i> Select a gift to receive a special blessing
+                </p>
+                
+                <div class="grid-3">
+                    <div class="card gift-card" data-gift="1">
+                        <i class="fas fa-heart card-icon"></i>
+                        <h3 style="color: var(--sapphire); margin-bottom: 1rem;">Gift of Love</h3>
+                        <p style="color: var(--navy-blue); margin-bottom: 1.5rem;">A blessing for your heart</p>
+                        <button class="btn btn-light open-gift-btn" data-gift="1">
+                            <i class="fas fa-box-open"></i> Open Gift
+                        </button>
+                    </div>
+                    
+                    <div class="card gift-card" data-gift="2">
+                        <i class="fas fa-star card-icon"></i>
+                        <h3 style="color: var(--sapphire); margin-bottom: 1rem;">Gift of Hope</h3>
+                        <p style="color: var(--navy-blue); margin-bottom: 1.5rem;">Inspiration for the season</p>
+                        <button class="btn btn-light open-gift-btn" data-gift="2">
+                            <i class="fas fa-box-open"></i> Open Gift
+                        </button>
+                    </div>
+                    
+                    <div class="card gift-card" data-gift="3">
+                        <i class="fas fa-crown card-icon"></i>
+                        <h3 style="color: var(--sapphire); margin-bottom: 1rem;">Gift of Joy</h3>
+                        <p style="color: var(--navy-blue); margin-bottom: 1.5rem;">Happiness and celebration</p>
+                        <button class="btn btn-light open-gift-btn" data-gift="3">
+                            <i class="fas fa-box-open"></i> Open Gift
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="giftMessage"></div>
+            </div>
+        </section>
+
+        <!-- Games Section -->
+        <section id="games" class="section">
+            <div class="content-box">
+                <h2><i class="fas fa-gamepad"></i> Christmas Games</h2>
+                
+                <!-- Game Selection -->
+                <div class="grid-3" id="gameSelection">
+                    <div class="card" data-game="quiz">
+                        <i class="fas fa-question-circle card-icon"></i>
+                        <h3 style="color: var(--sapphire); margin-bottom: 1rem;">Christmas Quiz</h3>
+                        <p style="color: var(--navy-blue); margin-bottom: 1.5rem;">Test your Christmas knowledge</p>
+                        <button class="btn btn-light" data-game="quiz">
+                            <i class="fas fa-play"></i> Play Now
+                        </button>
+                    </div>
+                    
+                    <div class="card" data-game="memory">
+                        <i class="fas fa-brain card-icon"></i>
+                        <h3 style="color: var(--sapphire); margin-bottom: 1rem;">Memory Match</h3>
+                        <p style="color: var(--navy-blue); margin-bottom: 1.5rem;">Match Christmas symbols</p>
+                        <button class="btn btn-light" data-game="memory">
+                            <i class="fas fa-play"></i> Play Now
+                        </button>
+                    </div>
+                    
+                    <div class="card" data-game="puzzle">
+                        <i class="fas fa-puzzle-piece card-icon"></i>
+                        <h3 style="color: var(--sapphire); margin-bottom: 1rem;">Christmas Puzzle</h3>
+                        <p style="color: var(--navy-blue); margin-bottom: 1.5rem;">Solve festive puzzles</p>
+                        <button class="btn btn-light" data-game="puzzle">
+                            <i class="fas fa-play"></i> Play Now
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Quiz Game Container (Hidden by default) -->
+                <div id="quizGameContainer" style="display: none;">
+                    <div class="quiz-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 2px solid var(--ice-blue);">
+                        <h3 style="color: var(--sapphire);"><i class="fas fa-question-circle"></i> Christmas Quiz</h3>
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <span style="color: var(--deep-blue); font-weight: 500;">
+                                Score: <span id="quizScore">0</span>/<span id="totalQuestions">0</span>
+                            </span>
+                            <button class="btn btn-light" id="backToGames">
+                                <i class="fas fa-arrow-left"></i> Back to Games
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Quiz Progress -->
+                    <div style="margin-bottom: 2rem;">
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                            <span style="color: var(--deep-blue);">Progress</span>
+                            <span style="color: var(--sapphire); font-weight: 500;">
+                                Question <span id="currentQuestion">1</span> of <span id="totalQuizQuestions">0</span>
+                            </span>
+                        </div>
+                        <div style="height: 8px; background: var(--ice-blue); border-radius: 4px; overflow: hidden;">
+                            <div id="quizProgress" style="height: 100%; width: 0%; background: linear-gradient(90deg, var(--serene-blue), var(--deep-blue)); transition: width 0.5s ease;"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Question Display -->
+                    <div id="questionContainer" style="background: var(--snow-white); border-radius: 15px; padding: 2rem; margin-bottom: 2rem; border: 2px solid var(--serene-blue);">
+                        <h4 style="color: var(--sapphire); margin-bottom: 1.5rem; font-size: 1.3rem;" id="questionText">
+                            Loading question...
+                        </h4>
+                        
+                        <!-- Options Container -->
+                        <div id="optionsContainer" style="display: grid; gap: 1rem;">
+                            <!-- Options will be dynamically added here -->
+                        </div>
+                    </div>
+                    
+                    <!-- Quiz Controls -->
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <button class="btn btn-light" id="prevQuestion" disabled>
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </button>
+                        
+                        <div style="display: flex; gap: 1rem;">
+                            <button class="btn" id="submitAnswer" disabled>
+                                <i class="fas fa-check"></i> Submit Answer
+                            </button>
+                            <button class="btn btn-light" id="nextQuestion" style="display: none;">
+                                <i class="fas fa-arrow-right"></i> Next Question
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Quiz Results (Hidden by default) -->
+                    <div id="quizResults" style="display: none; background: linear-gradient(135deg, var(--snow-white), var(--ice-blue)); border-radius: 15px; padding: 3rem; text-align: center; margin-top: 2rem; border: 2px solid var(--serene-blue);">
+                        <i class="fas fa-trophy" style="font-size: 4rem; color: var(--gold); margin-bottom: 1.5rem;"></i>
+                        <h3 style="color: var(--sapphire); margin-bottom: 1rem;">Quiz Completed!</h3>
+                        <p style="color: var(--navy-blue); margin-bottom: 1.5rem; font-size: 1.1rem;">
+                            <span id="finalScore">0</span> out of <span id="finalTotal">0</span> correct
+                        </p>
+                        <div style="font-size: 1.2rem; margin-bottom: 2rem;">
+                            <span id="quizPercentage" style="color: var(--sapphire); font-weight: 600;">0%</span>
+                        </div>
+                        <div id="quizMessage" style="color: var(--deep-blue); margin-bottom: 2rem; font-size: 1.1rem;">
+                            <!-- Message will be set dynamically -->
+                        </div>
+                        <div style="display: flex; gap: 1rem; justify-content: center;">
+                            <button class="btn" id="playAgainBtn">
+                                <i class="fas fa-redo"></i> Play Again
+                            </button>
+                            <button class="btn btn-light" id="quitToGames">
+                                <i class="fas fa-home"></i> Back to Games
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Memory Game Container (Hidden by default) -->
+                <div id="memoryGameContainer" style="display: none;">
+                    <!-- Memory game content would go here -->
+                </div>
+                
+                <!-- Puzzle Game Container (Hidden by default) -->
+                <div id="puzzleGameContainer" style="display: none;">
+                    <!-- Puzzle game content would go here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Stories Section -->
+        <section id="stories" class="section">
+            <div class="content-box">
+                <h2><i class="fas fa-book-open"></i> Christmas Stories</h2>
+                <div class="grid-3">
+                    <div class="card story-card" data-story="1">
+                        <i class="fas fa-baby card-icon"></i>
+                        <h3 style="color: var(--sapphire); margin-bottom: 1rem;">The Birth of Jesus</h3>
+                        <p style="color: var(--navy-blue); margin-bottom: 1.5rem;">The first Christmas night</p>
+                        <button class="btn btn-light read-story-btn" data-story="1">
+                            <i class="fas fa-book-reader"></i> Read Story
+                        </button>
+                    </div>
+                    
+                    <div class="card story-card" data-story="2">
+                        <i class="fas fa-star card-icon"></i>
+                        <h3 style="color: var(--sapphire); margin-bottom: 1rem;">Shepherds & Angels</h3>
+                        <p style="color: var(--navy-blue); margin-bottom: 1.5rem;">Angelic announcement</p>
+                        <button class="btn btn-light read-story-btn" data-story="2">
+                            <i class="fas fa-book-reader"></i> Read Story
+                        </button>
+                    </div>
+                    
+                    <div class="card story-card" data-story="3">
+                        <i class="fas fa-gem card-icon"></i>
+                        <h3 style="color: var(--sapphire); margin-bottom: 1rem;">The Wise Men</h3>
+                        <p style="color: var(--navy-blue); margin-bottom: 1.5rem;">Journey of the Magi</p>
+                        <button class="btn btn-light read-story-btn" data-story="3">
+                            <i class="fas fa-book-reader"></i> Read Story
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div style="margin-bottom: 1rem;">
+                <button class="btn btn-light" id="muteBtn">
+                    <i class="fas fa-volume-mute"></i> Mute Music
+                </button>
+                <button class="btn" id="playRandomBtn">
+                    <i class="fas fa-random"></i> Play Random Song
+                </button>
+            </div>
+            <p style="margin-bottom: 0.5rem; font-size: 1.1rem; font-weight: 300;">
+                <i class="fas fa-heart" style="color: var(--serene-blue);"></i>
+                Created with love for Adebiyi Oluwajuwuralo Rhoda Aduragbemi
+                <i class="fas fa-heart" style="color: var(--serene-blue);"></i>
+            </p>
+            <p style="font-size: 0.9rem; color: var(--deep-blue); opacity: 0.8;">
+                <i class="fas fa-lock" style="color: var(--sapphire); margin-right: 0.5rem;"></i>
+                Privacy Protected • No Data Collected
+            </p>
+        </div>
+</footer>
+
+    <!-- Audio Element for Background Music -->
+    <audio id="backgroundMusic" loop></audio>
+
+    <script>
+        // DOM Elements and Global Variables
+        const fullName = "Adebiyi Oluwajuwuralo Rhoda Aduragbemi";
+        let nameUsageCount = 0;
+        let hasGreeted = false;
+        let isMusicPlaying = false;
+        let currentSongIndex = 0;
+        let isMinimized = false;
+
+        // Quiz Variables
+        let currentQuizQuestion = 0;
+        let quizScore = 0;
+        let selectedOption = null;
+        let quizStarted = false;
+
+        // Christmas Songs Playlist
+        const christmasSongs = [
+            {
+                id: 1,
+                title: "We Wish You a Merry Christmas",
+                artist: "Traditional",
+                duration: "2:15",
+                lyrics: [
+                    "We wish you a Merry Christmas",
+                    "We wish you a Merry Christmas", 
+                    "We wish you a Merry Christmas",
+                    "And a Happy New Year!",
+                    "",
+                    "Good tidings we bring",
+                    "To you and your kin",
+                    "Good tidings for Christmas",
+                    "And a Happy New Year!",
+                    "",
+                    "We wish you a Merry Christmas",
+                    "We wish you a Merry Christmas",
+                    "We wish you a Merry Christmas",
+                    "And a Happy New Year!"
+                ],
+                aiSinging: [
+                    "We wish you a Merry Christmas",
+                    "We wish you a Merry Christmas", 
+                    "We wish you a Merry Christmas",
+                    `And a Happy New Year, dear ${fullName}!`,
+                    "Good tidings we bring",
+                    "To you and your kin",
+                    "Good tidings for Christmas",
+                    "And a Happy New Year!"
+                ]
+            },
+            {
+                id: 2,
+                title: "Silent Night",
+                artist: "Traditional",
+                duration: "3:30",
+                lyrics: [
+                    "Silent night, holy night",
+                    "All is calm, all is bright",
+                    "Round yon virgin, mother and child",
+                    "Holy infant so tender and mild",
+                    "Sleep in heavenly peace",
+                    "Sleep in heavenly peace",
+                    "",
+                    "Silent night, holy night",
+                    "Shepherds quake at the sight",
+                    "Glories stream from heaven afar",
+                    "Heavenly hosts sing alleluia",
+                    "Christ the Savior is born",
+                    "Christ the Savior is born"
+                ],
+                aiSinging: [
+                    "Silent night, holy night",
+                    "All is calm, all is bright",
+                    "Round yon virgin, mother and child",
+                    "Holy infant so tender and mild",
+                    "Sleep in heavenly peace",
+                    "Sleep in heavenly peace"
+                ]
+            },
+            {
+                id: 3,
+                title: "Joy to the World",
+                artist: "Traditional",
+                duration: "2:45",
+                lyrics: [
+                    "Joy to the world! The Lord is come",
+                    "Let earth receive her King",
+                    "Let every heart prepare Him room",
+                    "And heaven and nature sing",
+                    "And heaven and nature sing",
+                    "And heaven, and heaven and nature sing",
+                    "",
+                    "Joy to the world! The Savior reigns",
+                    "Let men their songs employ",
+                    "While fields and floods, rocks, hills, and plains",
+                    "Repeat the sounding joy",
+                    "Repeat the sounding joy",
+                    "Repeat, repeat the sounding joy"
+                ],
+                aiSinging: [
+                    "Joy to the world! The Lord is come",
+                    "Let earth receive her King",
+                    "Let every heart prepare Him room",
+                    "And heaven and nature sing",
+                    "And heaven and nature sing"
+                ]
+            },
+            {
+                id: 4,
+                title: "O Holy Night",
+                artist: "Traditional",
+                duration: "4:15",
+                lyrics: [
+                    "O holy night, the stars are brightly shining",
+                    "It is the night of our dear Savior's birth",
+                    "Long lay the world in sin and error pining",
+                    "Till He appeared and the soul felt its worth",
+                    "A thrill of hope, the weary world rejoices",
+                    "For yonder breaks a new and glorious morn",
+                    "",
+                    "Fall on your knees, O hear the angel voices",
+                    "O night divine, O night when Christ was born",
+                    "O night divine, O night, O night divine"
+                ],
+                aiSinging: [
+                    "O holy night, the stars are brightly shining",
+                    "It is the night of our dear Savior's birth",
+                    "A thrill of hope, the weary world rejoices",
+                    "For yonder breaks a new and glorious morn"
+                ]
+            },
+            {
+                id: 5,
+                title: "The First Noel",
+                artist: "Traditional",
+                duration: "3:10",
+                lyrics: [
+                    "The first Noel the angel did say",
+                    "Was to certain poor shepherds in fields as they lay",
+                    "In fields where they lay keeping their sheep",
+                    "On a cold winter's night that was so deep",
+                    "",
+                    "Noel, Noel, Noel, Noel",
+                    "Born is the King of Israel!"
+                ],
+                aiSinging: [
+                    "The first Noel the angel did say",
+                    "Was to certain poor shepherds in fields as they lay",
+                    "Noel, Noel, Noel, Noel",
+                    "Born is the King of Israel!"
+                ]
+            },
+            {
+                id: 6,
+                title: "Hark! The Herald Angels Sing",
+                artist: "Traditional",
+                duration: "3:05",
+                lyrics: [
+                    "Hark! The herald angels sing",
+                    "Glory to the newborn King",
+                    "Peace on earth and mercy mild",
+                    "God and sinners reconciled",
+                    "",
+                    "Joyful all ye nations rise",
+                    "Join the triumph of the skies",
+                    "With angelic host proclaim",
+                    "Christ is born in Bethlehem"
+                ],
+                aiSinging: [
+                    "Hark! The herald angels sing",
+                    "Glory to the newborn King",
+                    "Peace on earth and mercy mild",
+                    "God and sinners reconciled"
+                ]
+            }
+        ];
+
+        // Christmas Quiz Questions
+        const christmasQuizQuestions = [
+            {
+                question: "In which city was Jesus born according to the Christmas story?",
+                options: ["Bethlehem", "Jerusalem", "Nazareth", "Galilee"],
+                correct: 0,
+                explanation: "According to the Bible, Jesus was born in Bethlehem, which is why it's often called 'The City of David'."
+            },
+            {
+                question: "Who announced Jesus' birth to the shepherds?",
+                options: ["Three Wise Men", "An angel", "King Herod", "A prophet"],
+                correct: 1,
+                explanation: "An angel appeared to shepherds in the fields to announce the birth of Jesus."
+            },
+            {
+                question: "What gifts did the Wise Men bring to Jesus?",
+                options: ["Gold, frankincense, and myrrh", "Silver, spices, and wine", "Jewels, silk, and oil", "Food, water, and clothing"],
+                correct: 0,
+                explanation: "The three Wise Men brought gifts of gold, frankincense, and myrrh to the baby Jesus."
+            },
+            {
+                question: "What does the red color of Christmas symbolize?",
+                options: ["The blood of Jesus", "Love and warmth", "Santa's suit", "Holly berries"],
+                correct: 0,
+                explanation: "Red traditionally symbolizes the blood of Jesus Christ shed for humanity's salvation."
+            },
+            {
+                question: "Which animal is said to have witnessed Jesus' birth in the stable?",
+                options: ["Donkey", "Sheep", "Ox", "All of the above"],
+                correct: 3,
+                explanation: "Traditional nativity scenes include donkeys, sheep, and oxen in the stable."
+            },
+            {
+                question: "What is the traditional number of days in the Christmas season?",
+                options: ["12 days", "25 days", "40 days", "1 day"],
+                correct: 0,
+                explanation: "The Christmas season traditionally lasts for 12 days, from December 25th to January 5th."
+            },
+            {
+                question: "Which gospel tells the story of Jesus' birth in detail?",
+                options: ["Matthew", "Mark", "Luke", "John"],
+                correct: 2,
+                explanation: "The Gospel of Luke provides the most detailed account of Jesus' birth."
+            },
+            {
+                question: "What was the name of Jesus' mother?",
+                options: ["Mary", "Elizabeth", "Sarah", "Rebecca"],
+                correct: 0,
+                explanation: "Mary was the mother of Jesus, chosen by God for this special role."
+            },
+            {
+                question: "What does 'Noel' mean in Christmas carols?",
+                options: ["Birth", "Christmas", "Joy", "Peace"],
+                correct: 1,
+                explanation: "Noel comes from the French word for Christmas, which itself comes from the Latin for birth."
+            },
+            {
+                question: "Why is December 25th celebrated as Christmas?",
+                options: [
+                    "It's Jesus' actual birthday",
+                    "It replaced a pagan winter festival",
+                    "It was chosen by early Christians",
+                    "Both 2 and 3"
+                ],
+                correct: 3,
+                explanation: "December 25th was chosen by early Christians and coincided with pagan winter solstice festivals."
+            }
+        ];
+
+        // Audio URLs for Christmas songs (using public domain/royalty-free versions)
+        const songAudioUrls = {
+            1: "https://assets.mixkit.co/music/preview/mixkit-jingle-bells-311.mp3",
+            2: "https://assets.mixkit.co/music/preview/mixkit-silent-night-319.mp3",
+            3: "https://assets.mixkit.co/music/preview/mixkit-christmas-bells-299.mp3",
+            4: "https://assets.mixkit.co/music/preview/mixkit-christmas-morning-387.mp3",
+            5: "https://assets.mixkit.co/music/preview/mixkit-christmas-bells-loop-298.mp3",
+            6: "https://assets.mixkit.co/music/preview/mixkit-christmas-is-coming-396.mp3"
+        };
+
+        // Initialize everything when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeSnowflakes();
+            setupNavigation();
+            setupMusicSystem();
+            setupEventListeners();
+            setupAI();
+            initializeQuizGame();
+            
+            // Show loading screen briefly
+            setTimeout(() => {
+                document.getElementById('loading').style.display = 'none';
+                // Show click to start overlay
+                document.getElementById('clickToStart').style.display = 'flex';
+                
+                // Make the overlay clickable anywhere
+                document.getElementById('clickToStart').addEventListener('click', function(e) {
+                    // Start the experience when clicked anywhere on overlay
+                    this.style.display = 'none';
+                    startChristmasExperience();
+                });
+                
+                // Make the start button also work
+                document.getElementById('clickStartBtn').addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    document.getElementById('clickToStart').style.display = 'none';
+                    startChristmasExperience();
+                });
+            }, 1000);
+        });
+
+        // Start Christmas Experience
+        function startChristmasExperience() {
+            // Start playing Christmas music
+            startChristmasMusic();
+            
+            // Greet the user with their name
+            setTimeout(() => {
+                speakWithName(`Welcome to your Christmas experience, ${fullName}. I hope this brings you joy and peace during this special season.`, true);
+                hasGreeted = true;
+            }, 500);
+        }
+
+        // Initialize Snowflakes
+        function initializeSnowflakes() {
+            const container = document.getElementById('snowflakes');
+            for (let i = 0; i < 50; i++) {
+                const snowflake = document.createElement('div');
+                snowflake.className = 'snowflake';
+                const size = Math.random() * 5 + 3;
+                snowflake.style.width = `${size}px`;
+                snowflake.style.height = `${size}px`;
+                snowflake.style.left = `${Math.random() * 100}%`;
+                snowflake.style.top = `${Math.random() * 100}%`;
+                snowflake.style.animationDuration = `${Math.random() * 5 + 5}s`;
+                snowflake.style.animationDelay = `${Math.random() * 5}s`;
+                container.appendChild(snowflake);
+            }
+        }
+
+        // Setup Navigation
+        function setupNavigation() {
+            const hamburgerBtn = document.getElementById('hamburgerBtn');
+            const closeMenuBtn = document.getElementById('closeMenuBtn');
+            const mobileNavOverlay = document.getElementById('mobileNavOverlay');
+            const mobileNav = document.getElementById('mobileNav');
+            
+            // Open mobile menu
+            hamburgerBtn.addEventListener('click', function() {
+                mobileNav.classList.add('active');
+                mobileNavOverlay.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+            
+            // Close mobile menu
+            function closeMobileMenu() {
+                mobileNav.classList.remove('active');
+                mobileNavOverlay.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+            
+            closeMenuBtn.addEventListener('click', closeMobileMenu);
+            mobileNavOverlay.addEventListener('click', closeMobileMenu);
+            
+            // Navigation buttons
+            const navBtns = document.querySelectorAll('.nav-btn');
+            const sections = document.querySelectorAll('.section');
+            
+            navBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const sectionId = this.dataset.section;
+                    
+                    // Update active button
+                    navBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Show section
+                    sections.forEach(section => {
+                        section.classList.remove('active');
+                        if (section.id === sectionId) {
+                            section.classList.add('active');
+                        }
+                    });
+                    
+                    // Special AI messages for sections
+                    switch(sectionId) {
+                        case 'home':
+                            if (nameUsageCount < 3) {
+                                speakWithName(`Welcome back home, ${fullName}. Is there anything special you'd like to explore today?`, true);
+                            } else {
+                                speakAI("Welcome back to the home section. Where would you like to go next?");
+                            }
+                            break;
+                        case 'music':
+                            speakAI("Welcome to the Christmas music section. Enjoy beautiful Christmas songs or let me sing for you!");
+                            break;
+                        case 'gifts':
+                            speakAI("The gifts section contains special blessings prepared just for you. Choose one to discover its meaning.");
+                            break;
+                        case 'games':
+                            speakAI("Christmas games await! Test your knowledge or enjoy a memory challenge.");
+                            break;
+                        case 'stories':
+                            speakAI("Beautiful Christmas stories that capture the true meaning of the season.");
+                            break;
+                    }
+                    
+                    // Close mobile menu
+                    closeMobileMenu();
+                });
+            });
+            
+            // Card navigation
+            document.querySelectorAll('.card[data-section]').forEach(card => {
+                card.addEventListener('click', function() {
+                    const sectionId = this.dataset.section;
+                    const navBtn = document.querySelector(`.nav-btn[data-section="${sectionId}"]`);
+                    if (navBtn) navBtn.click();
+                });
+            });
+        }
+
+        // Setup Music System
+        function setupMusicSystem() {
+            const audioPlayer = document.getElementById('backgroundMusic');
+            const playBtn = document.getElementById('playBtn');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const volumeSlider = document.getElementById('volumeSlider');
+            const minimizeBtn = document.getElementById('minimizeBtn');
+            const musicPlayer = document.getElementById('musicPlayer');
+            
+            // Initialize audio player
+            audioPlayer.volume = volumeSlider.value / 100;
+            
+            // Populate song list
+            populateSongList();
+            
+            // Play button
+            playBtn.addEventListener('click', function() {
+                if (isMusicPlaying) {
+                    pauseMusic();
+                } else {
+                    playMusic();
+                }
+            });
+            
+            // Previous button
+            prevBtn.addEventListener('click', function() {
+                playPreviousSong();
+            });
+            
+            // Next button
+            nextBtn.addEventListener('click', function() {
+                playNextSong();
+            });
+            
+            // Volume control
+            volumeSlider.addEventListener('input', function() {
+                audioPlayer.volume = this.value / 100;
+            });
+            
+            // Minimize button
+            minimizeBtn.addEventListener('click', function() {
+                isMinimized = !isMinimized;
+                musicPlayer.classList.toggle('minimized', isMinimized);
+                this.innerHTML = isMinimized ? '<i class="fas fa-expand"></i>' : '<i class="fas fa-minus"></i>';
+            });
+            
+            // Audio event listeners
+            audioPlayer.addEventListener('play', function() {
+                isMusicPlaying = true;
+                playBtn.innerHTML = '<i class="fas fa-pause"></i>';
+                document.getElementById('currentSongStatus').textContent = 'Playing';
+                updateActiveSong();
+            });
+            
+            audioPlayer.addEventListener('pause', function() {
+                isMusicPlaying = false;
+                playBtn.innerHTML = '<i class="fas fa-play"></i>';
+                document.getElementById('currentSongStatus').textContent = 'Paused';
+            });
+            
+            audioPlayer.addEventListener('ended', function() {
+                playNextSong();
+            });
+            
+            // Load first song
+            loadSong(currentSongIndex);
+        }
+
+        // Start Christmas Music Automatically
+        function startChristmasMusic() {
+            const audioPlayer = document.getElementById('backgroundMusic');
+            
+            // Start with first song
+            loadSong(currentSongIndex);
+            
+            // Try to play - user interaction has happened by clicking the overlay
+            const playPromise = audioPlayer.play();
+            
+            if (playPromise !== undefined) {
+                playPromise.then(() => {
+                    // Autoplay started successfully
+                    isMusicPlaying = true;
+                    document.getElementById('playBtn').innerHTML = '<i class="fas fa-pause"></i>';
+                    document.getElementById('currentSongStatus').textContent = 'Playing';
+                }).catch(error => {
+                    // Autoplay was prevented
+                    console.log("Autoplay failed, user interaction required");
+                    document.getElementById('currentSongStatus').textContent = 'Click play to start music';
+                });
+            }
+        }
+
+        // Populate Song List
+        function populateSongList() {
+            const songList = document.getElementById('songList');
+            songList.innerHTML = '';
+            
+            christmasSongs.forEach((song, index) => {
+                const songItem = document.createElement('div');
+                songItem.className = 'song-item';
+                if (index === currentSongIndex) {
+                    songItem.classList.add('active');
+                }
+                songItem.dataset.index = index;
+                
+                songItem.innerHTML = `
+                    <div class="song-number">${song.id}</div>
+                    <div class="song-title">${song.title}</div>
+                    <div class="song-duration">${song.duration}</div>
+                `;
+                
+                songItem.addEventListener('click', function() {
+                    const index = parseInt(this.dataset.index);
+                    playSong(index);
+                });
+                
+                songList.appendChild(songItem);
+            });
+            
+            // Update lyrics for current song
+            updateLyrics();
+        }
+
+        // Play Song
+        function playSong(index) {
+            if (index >= 0 && index < christmasSongs.length) {
+                currentSongIndex = index;
+                loadSong(index);
+                playMusic();
+            }
+        }
+
+        // Load Song
+        function loadSong(index) {
+            const song = christmasSongs[index];
+            const audioPlayer = document.getElementById('backgroundMusic');
+            
+            // Update UI
+            document.getElementById('currentSongTitle').textContent = song.title;
+            
+            // Set audio source
+            audioPlayer.src = songAudioUrls[song.id] || songAudioUrls[1];
+            
+            // Update active song in list
+            document.querySelectorAll('.song-item').forEach(item => {
+                item.classList.remove('active');
+                if (parseInt(item.dataset.index) === index) {
+                    item.classList.add('active');
+                }
+            });
+            
+            // Update lyrics
+            updateLyrics();
+        }
+
+        // Play Music
+        function playMusic() {
+            const audioPlayer = document.getElementById('backgroundMusic');
+            audioPlayer.play().catch(error => {
+                console.log("Play failed:", error);
+                speakAI("Please click the play button to start the Christmas music.");
+            });
+        }
+
+        // Pause Music
+        function pauseMusic() {
+            const audioPlayer = document.getElementById('backgroundMusic');
+            audioPlayer.pause();
+        }
+
+        // Play Next Song
+        function playNextSong() {
+            currentSongIndex = (currentSongIndex + 1) % christmasSongs.length;
+            loadSong(currentSongIndex);
+            playMusic();
+        }
+
+        // Play Previous Song
+        function playPreviousSong() {
+            currentSongIndex = (currentSongIndex - 1 + christmasSongs.length) % christmasSongs.length;
+            loadSong(currentSongIndex);
+            playMusic();
+        }
+
+        // Update Active Song in List
+        function updateActiveSong() {
+            document.querySelectorAll('.song-item').forEach(item => {
+                item.classList.remove('active');
+                if (parseInt(item.dataset.index) === currentSongIndex) {
+                    item.classList.add('active');
+                }
+            });
+        }
+
+        // Update Lyrics Display
+        function updateLyrics() {
+            const song = christmasSongs[currentSongIndex];
+            const lyricsContent = document.getElementById('lyricsContent');
+            
+            lyricsContent.innerHTML = song.lyrics.map(line => 
+                line === '' ? '<br>' : `<p class="lyrics-line">${line}</p>`
+            ).join('');
+        }
+
+        // Setup Event Listeners
+        function setupEventListeners() {
+            // Start button
+            document.getElementById('startBtn').addEventListener('click', function() {
+                showSection('music');
+                speakAI("Let's begin with the Christmas music section. Enjoy the beautiful songs!");
+            });
+            
+            // Surprise button
+            document.getElementById('surpriseBtn').addEventListener('click', function() {
+                const surprises = [
+                    `A special Christmas blessing for you, ${fullName}: May your heart be filled with peace and joy that lasts throughout the coming year.`,
+                    "Take a moment to notice the beauty around you. The Christmas season reminds us to appreciate life's simple pleasures.",
+                    "Did you know? The tradition of giving gifts at Christmas dates back to the gifts given by the Wise Men to baby Jesus."
+                ];
+                const randomSurprise = surprises[Math.floor(Math.random() * surprises.length)];
+                speakAI(randomSurprise);
+            });
+            
+            // Greeting buttons
+            document.querySelectorAll('.greeting-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const lang = this.dataset.lang;
+                    const greetings = {
+                        en: `Merry Christmas, ${fullName}!`,
+                        yo: `E ku odun keresimesi, ${fullName}!`,
+                        ig: `Ekeresimesi ọma, ${fullName}!`,
+                        ha: `Barka da Kirsimeti, ${fullName}!`
+                    };
+                    speakAI(greetings[lang]);
+                });
+            });
+            
+            // AI Sing button
+            document.getElementById('aiSingBtn').addEventListener('click', function() {
+                singChristmasSong('merry-christmas');
+            });
+            
+            // AI Sing Merry Christmas button
+            document.getElementById('aiSingMerryChristmas').addEventListener('click', function() {
+                singChristmasSong('merry-christmas');
+            });
+            
+            // AI Sing Silent Night button
+            document.getElementById('aiSingSilentNight').addEventListener('click', function() {
+                singChristmasSong('silent-night');
+            });
+            
+            // AI Sing Joy to the World button
+            document.getElementById('aiSingJoyToWorld').addEventListener('click', function() {
+                singChristmasSong('joy-to-world');
+            });
+            
+            // Mute button
+            document.getElementById('muteBtn').addEventListener('click', function() {
+                const audioPlayer = document.getElementById('backgroundMusic');
+                const volumeSlider = document.getElementById('volumeSlider');
+                
+                if (audioPlayer.volume > 0) {
+                    audioPlayer.volume = 0;
+                    volumeSlider.value = 0;
+                    this.innerHTML = '<i class="fas fa-volume-up"></i> Unmute Music';
+                    speakAI("Music muted. Click unmute to restore the Christmas melodies.");
+                } else {
+                    audioPlayer.volume = 0.5;
+                    volumeSlider.value = 50;
+                    this.innerHTML = '<i class="fas fa-volume-mute"></i> Mute Music';
+                    speakAI("Music volume restored. Enjoy the Christmas songs!");
+                }
+            });
+            
+            // Play Random button
+            document.getElementById('playRandomBtn').addEventListener('click', function() {
+                const randomIndex = Math.floor(Math.random() * christmasSongs.length);
+                playSong(randomIndex);
+                speakAI(`Now playing: ${christmasSongs[randomIndex].title}. A beautiful Christmas song for you!`);
+            });
+        }
+
+        // Setup AI Voice System
+        function setupAI() {
+            if (!('speechSynthesis' in window)) {
+                console.warn('Speech synthesis not supported');
+                return;
+            }
+            
+            // Preload voices
+            speechSynthesis.onvoiceschanged = function() {
+                console.log('Voices loaded:', speechSynthesis.getVoices().length);
+            };
+            
+            // Force voices to load
+            setTimeout(() => {
+                speechSynthesis.getVoices();
+            }, 1000);
+        }
+
+        // Speak with AI (Mature Voice)
+        function speakAI(text) {
+            if (!('speechSynthesis' in window)) {
+                console.log("AI: " + text);
+                return;
+            }
+            
+            // Cancel any ongoing speech
+            speechSynthesis.cancel();
+            
+            // Lower music volume while AI speaks
+            const originalVolume = document.getElementById('backgroundMusic').volume;
+            document.getElementById('backgroundMusic').volume = originalVolume * 0.3;
+            
+            // Show AI indicator
+            const aiIndicator = document.getElementById('aiIndicator');
+            aiIndicator.classList.add('show');
+            
+            // Create utterance with mature settings
+            const utterance = new SpeechSynthesisUtterance(text);
+            
+            // Mature voice settings
+            utterance.rate = 0.85;
+            utterance.pitch = 0.85;
+            utterance.volume = 1.0;
+            
+            // Try to select a mature-sounding voice
+            const voices = speechSynthesis.getVoices();
+            if (voices.length > 0) {
+                const matureVoices = voices.filter(voice => {
+                    const voiceName = voice.name.toLowerCase();
+                    return (
+                        voiceName.includes('male') ||
+                        voiceName.includes('david') ||
+                        voiceName.includes('mark') ||
+                        voiceName.includes('daniel')
+                    );
+                });
+                
+                if (matureVoices.length > 0) {
+                    utterance.voice = matureVoices[0];
+                } else {
+                    const englishVoices = voices.filter(voice => voice.lang.startsWith('en'));
+                    if (englishVoices.length > 0) {
+                        utterance.voice = englishVoices[0];
+                    }
+                }
+            }
+            
+            // Handle speech events
+            utterance.onstart = function() {
+                aiIndicator.classList.add('show');
+            };
+            
+            utterance.onend = function() {
+                setTimeout(() => {
+                    aiIndicator.classList.remove('show');
+                    // Restore music volume
+                    document.getElementById('backgroundMusic').volume = originalVolume;
+                }, 500);
+            };
+            
+            utterance.onerror = function() {
+                aiIndicator.classList.remove('show');
+                document.getElementById('backgroundMusic').volume = originalVolume;
+            };
+            
+            // Add a small delay before speaking for better UX
+            setTimeout(() => {
+                speechSynthesis.speak(utterance);
+            }, 300);
+        }
+
+        // Speak with name (limited to 3 times)
+        function speakWithName(text, includeName = false) {
+            if (includeName && nameUsageCount < 3) {
+                nameUsageCount++;
+                speakAI(text);
+            } else {
+                speakAI(text.replace(fullName, '').trim());
+            }
+        }
+
+        // AI Sing Christmas Song
+        function singChristmasSong(songType) {
+            let songLines = [];
+            let songTitle = "";
+            
+            switch(songType) {
+                case 'merry-christmas':
+                    songTitle = "We Wish You a Merry Christmas";
+                    songLines = christmasSongs[0].aiSinging;
+                    break;
+                case 'silent-night':
+                    songTitle = "Silent Night";
+                    songLines = christmasSongs[1].aiSinging;
+                    break;
+                case 'joy-to-world':
+                    songTitle = "Joy to the World";
+                    songLines = christmasSongs[2].aiSinging;
+                    break;
+            }
+            
+            speakAI(`I'll sing ${songTitle} for you, ${fullName}!`);
+            
+            // Pause background music while AI sings
+            const audioPlayer = document.getElementById('backgroundMusic');
+            const wasPlaying = isMusicPlaying;
+            if (wasPlaying) {
+                audioPlayer.pause();
+            }
+            
+            // Sing each line with slight delays
+            let delay = 2000; // Start after 2 seconds
+            
+            songLines.forEach((line, index) => {
+                setTimeout(() => {
+                    const singingUtterance = new SpeechSynthesisUtterance(line);
+                    singingUtterance.rate = 0.8; // Slower for singing
+                    singingUtterance.pitch = 1.1; // Slightly higher pitch for singing
+                    singingUtterance.volume = 1.0;
+                    
+                    // Highlight lyrics line if on music page
+                    if (document.getElementById('music').classList.contains('active')) {
+                        const lyricsLines = document.querySelectorAll('.lyrics-line');
+                        if (lyricsLines[index]) {
+                            lyricsLines.forEach(l => l.classList.remove('highlight'));
+                            lyricsLines[index].classList.add('highlight');
+                            
+                            // Scroll to highlighted line
+                            lyricsLines[index].scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'center'
+                            });
+                        }
+                    }
+                    
+                    speechSynthesis.speak(singingUtterance);
+                }, delay);
+                
+                delay += 2500; // Add delay between lines
+            });
+            
+            // Resume background music after singing
+            setTimeout(() => {
+                if (wasPlaying) {
+                    audioPlayer.play();
+                }
+                
+                // Remove highlights
+                document.querySelectorAll('.lyrics-line').forEach(l => l.classList.remove('highlight'));
+            }, delay + 1000);
+        }
+
+        // Initialize Quiz Game
+        function initializeQuizGame() {
+            const gameButtons = document.querySelectorAll('[data-game="quiz"]');
+            const backToGamesBtn = document.getElementById('backToGames');
+            const playAgainBtn = document.getElementById('playAgainBtn');
+            const quitToGamesBtn = document.getElementById('quitToGames');
+            
+            // Start quiz when quiz button is clicked
+            gameButtons.forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    startQuizGame();
+                });
+            });
+            
+            // Back to games button
+            if (backToGamesBtn) {
+                backToGamesBtn.addEventListener('click', function() {
+                    document.getElementById('quizGameContainer').style.display = 'none';
+                    document.getElementById('gameSelection').style.display = 'grid';
+                    resetQuiz();
+                });
+            }
+            
+            // Play again button
+            if (playAgainBtn) {
+                playAgainBtn.addEventListener('click', function() {
+                    resetQuiz();
+                    loadQuestion(currentQuizQuestion);
+                    document.getElementById('quizResults').style.display = 'none';
+                    document.getElementById('questionContainer').style.display = 'block';
+                });
+            }
+            
+            // Quit to games button
+            if (quitToGamesBtn) {
+                quitToGamesBtn.addEventListener('click', function() {
+                    document.getElementById('quizGameContainer').style.display = 'none';
+                    document.getElementById('gameSelection').style.display = 'grid';
+                    document.getElementById('quizResults').style.display = 'none';
+                    document.getElementById('questionContainer').style.display = 'block';
+                    resetQuiz();
+                });
+            }
+            
+            // Quiz navigation buttons
+            document.getElementById('prevQuestion').addEventListener('click', goToPreviousQuestion);
+            document.getElementById('nextQuestion').addEventListener('click', goToNextQuestion);
+            document.getElementById('submitAnswer').addEventListener('click', submitAnswer);
+        }
+
+        // Start Quiz Game
+        function startQuizGame() {
+            speakAI("Starting Christmas Quiz! Test your knowledge of Christmas traditions and stories. Good luck!");
+            
+            // Hide game selection, show quiz
+            document.getElementById('gameSelection').style.display = 'none';
+            document.getElementById('quizGameContainer').style.display = 'block';
+            
+            // Reset and start quiz
+            resetQuiz();
+            loadQuestion(currentQuizQuestion);
+            quizStarted = true;
+        }
+
+        // Reset Quiz
+        function resetQuiz() {
+            currentQuizQuestion = 0;
+            quizScore = 0;
+            selectedOption = null;
+            updateQuizProgress();
+            updateQuizScore();
+            
+            // Reset buttons
+            document.getElementById('prevQuestion').disabled = true;
+            document.getElementById('submitAnswer').disabled = true;
+            document.getElementById('nextQuestion').style.display = 'none';
+            document.getElementById('submitAnswer').style.display = 'inline-flex';
+        }
+
+        // Load Question
+        function loadQuestion(questionIndex) {
+            const question = christmasQuizQuestions[questionIndex];
+            const questionText = document.getElementById('questionText');
+            const optionsContainer = document.getElementById('optionsContainer');
+            
+            // Update question text
+            questionText.textContent = question.question;
+            
+            // Update question counter
+            document.getElementById('currentQuestion').textContent = questionIndex + 1;
+            document.getElementById('totalQuizQuestions').textContent = christmasQuizQuestions.length;
+            
+            // Clear options
+            optionsContainer.innerHTML = '';
+            
+            // Add options
+            const optionLetters = ['A', 'B', 'C', 'D'];
+            question.options.forEach((option, index) => {
+                const optionDiv = document.createElement('div');
+                optionDiv.className = 'quiz-option';
+                optionDiv.dataset.index = index;
+                
+                optionDiv.innerHTML = `
+                    <div class="option-letter">${optionLetters[index]}</div>
+                    <div class="option-text">${option}</div>
+                `;
+                
+                optionDiv.addEventListener('click', () => selectOption(optionDiv, index));
+                optionsContainer.appendChild(optionDiv);
+            });
+            
+            // Update progress
+            updateQuizProgress();
+            
+            // Update navigation buttons
+            document.getElementById('prevQuestion').disabled = questionIndex === 0;
+            document.getElementById('submitAnswer').disabled = true;
+            document.getElementById('nextQuestion').style.display = 'none';
+            document.getElementById('submitAnswer').style.display = 'inline-flex';
+            
+            // Reset selected option
+            selectedOption = null;
+        }
+
+        // Select Option
+        function selectOption(optionElement, optionIndex) {
+            if (selectedOption !== null) {
+                // Remove previous selection
+                const previousOption = document.querySelector(`.quiz-option[data-index="${selectedOption}"]`);
+                if (previousOption) {
+                    previousOption.classList.remove('selected');
+                }
+            }
+            
+            // Select new option
+            optionElement.classList.add('selected');
+            selectedOption = optionIndex;
+            document.getElementById('submitAnswer').disabled = false;
+        }
+
+        // Submit Answer
+        function submitAnswer() {
+            if (selectedOption === null) return;
+            
+            const question = christmasQuizQuestions[currentQuizQuestion];
+            const optionElements = document.querySelectorAll('.quiz-option');
+            
+            // Disable all options
+            optionElements.forEach(option => {
+                option.classList.add('disabled');
+                option.style.pointerEvents = 'none';
+            });
+            
+            // Mark correct and incorrect answers
+            optionElements.forEach((option, index) => {
+                if (index === question.correct) {
+                    option.classList.add('correct');
+                } else if (index === selectedOption) {
+                    option.classList.add('incorrect');
+                }
+            });
+            
+            // Update score if correct
+            if (selectedOption === question.correct) {
+                quizScore++;
+                updateQuizScore();
+                
+                // Play correct sound effect (optional - we'll use AI voice)
+                speakAI("Correct! " + question.explanation);
+            } else {
+                // Play incorrect sound effect
+                speakAI(`Incorrect. The correct answer was ${question.options[question.correct]}. ${question.explanation}`);
+            }
+            
+            // Show next question button
+            document.getElementById('nextQuestion').style.display = 'inline-flex';
+            document.getElementById('submitAnswer').style.display = 'none';
+            
+            // If last question, show finish button
+            if (currentQuizQuestion === christmasQuizQuestions.length - 1) {
+                document.getElementById('nextQuestion').textContent = 'Finish Quiz';
+                document.getElementById('nextQuestion').innerHTML = '<i class="fas fa-flag-checkered"></i> Finish Quiz';
+            }
+        }
+
+        // Go to Next Question
+        function goToNextQuestion() {
+            if (currentQuizQuestion < christmasQuizQuestions.length - 1) {
+                currentQuizQuestion++;
+                loadQuestion(currentQuizQuestion);
+            } else {
+                finishQuiz();
+            }
+        }
+
+        // Go to Previous Question
+        function goToPreviousQuestion() {
+            if (currentQuizQuestion > 0) {
+                currentQuizQuestion--;
+                loadQuestion(currentQuizQuestion);
+                
+                // Re-enable options if going back
+                const optionElements = document.querySelectorAll('.quiz-option');
+                optionElements.forEach(option => {
+                    option.classList.remove('disabled', 'correct', 'incorrect');
+                    option.style.pointerEvents = 'auto';
+                });
+                
+                // Check if this question was answered correctly before
+                const previousQuestion = christmasQuizQuestions[currentQuizQuestion];
+                const wasCorrect = selectedOption === previousQuestion.correct;
+                
+                // Update submit button state
+                if (selectedOption !== null) {
+                    document.getElementById('submitAnswer').disabled = false;
+                }
+            }
+        }
+
+        // Finish Quiz
+        function finishQuiz() {
+            const percentage = Math.round((quizScore / christmasQuizQuestions.length) * 100);
+            
+            // Update results
+            document.getElementById('finalScore').textContent = quizScore;
+            document.getElementById('finalTotal').textContent = christmasQuizQuestions.length;
+            document.getElementById('quizPercentage').textContent = `${percentage}%`;
+            
+            // Set message based on score
+            let message = '';
+            let aiMessage = '';
+            
+            if (percentage === 100) {
+                message = `Perfect score, ${fullName}! You're a Christmas expert! 🎄`;
+                aiMessage = `Amazing! You got a perfect score on the Christmas quiz, ${fullName}! You truly know the meaning of Christmas!`;
+            } else if (percentage >= 80) {
+                message = `Excellent work, ${fullName}! You know your Christmas facts very well!`;
+                aiMessage = `Great job! You scored ${percentage}% on the Christmas quiz. Impressive knowledge!`;
+            } else if (percentage >= 60) {
+                message = `Good job, ${fullName}! You know quite a bit about Christmas!`;
+                aiMessage = `Good effort! You scored ${percentage}% on the Christmas quiz.`;
+            } else {
+                message = `Keep learning about Christmas, ${fullName}! The true meaning is what matters most.`;
+                aiMessage = `You scored ${percentage}% on the Christmas quiz. Remember, the most important thing is understanding the love and joy of Christmas.`;
+            }
+            
+            document.getElementById('quizMessage').textContent = message;
+            
+            // Show results, hide question
+            document.getElementById('questionContainer').style.display = 'none';
+            document.getElementById('quizResults').style.display = 'block';
+            
+            // Speak results
+            setTimeout(() => {
+                speakAI(aiMessage);
+            }, 1000);
+        }
+
+        // Update Quiz Progress
+        function updateQuizProgress() {
+            const progress = ((currentQuizQuestion + 1) / christmasQuizQuestions.length) * 100;
+            document.getElementById('quizProgress').style.width = `${progress}%`;
+        }
+
+        // Update Quiz Score
+        function updateQuizScore() {
+            document.getElementById('quizScore').textContent = quizScore;
+            document.getElementById('totalQuestions').textContent = christmasQuizQuestions.length;
+        }
+
+        // Helper function to show section
+        function showSection(sectionId) {
+            const navBtn = document.querySelector(`.nav-btn[data-section="${sectionId}"]`);
+            if (navBtn) navBtn.click();
+        }
+
+        // Handle window resize
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                const mobileNav = document.getElementById('mobileNav');
+                const mobileNavOverlay = document.getElementById('mobileNavOverlay');
+                mobileNav.classList.remove('active');
+                mobileNavOverlay.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+
+        // Gift functions
+        document.querySelectorAll('.open-gift-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const giftId = this.dataset.gift;
+                const gifts = {
+                    1: `"May you be surrounded by love this Christmas, ${fullName}. Remember that you are cherished more than you know."`,
+                    2: `"May this Christmas fill you with hope for the future, ${fullName}. Brighter days are always ahead."`,
+                    3: `"May your heart overflow with joy this season, ${fullName}. True happiness comes from within."`
+                };
+                speakAI(gifts[giftId] || "Merry Christmas!");
+            });
+        });
+
+        // Other game buttons
+        document.querySelectorAll('.play-game-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const gameId = this.dataset.game;
+                const games = {
+                    quiz: "Starting Christmas Quiz. Test your knowledge of Christmas traditions!",
+                    memory: "Memory Match game loading. Match pairs of Christmas symbols!",
+                    puzzle: "Christmas Puzzle starting. Solve the festive scene!"
+                };
+                speakAI(games[gameId] || "Starting game...");
+            });
+        });
+
+        // Story buttons
+        document.querySelectorAll('.read-story-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const storyId = this.dataset.story;
+                const stories = {
+                    1: "The story of Jesus' birth in Bethlehem, a humble beginning for the savior of the world.",
+                    2: "The shepherds watching their flocks by night, visited by angels with glorious news.",
+                    3: "Wise men from the East following a star to find the newborn king."
+                };
+                speakAI(`Reading Christmas story: ${stories[storyId]}`);
+            });
+        });
+    </script>
+</body>
+</html>
